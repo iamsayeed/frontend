@@ -1,0 +1,52 @@
+/* p{
+    background-color: red;
+}
+
+a{
+    background-color: rgb(12, 12, 11);
+}
+
+div{
+    background-color: blue;
+} */
+
+
+
+/* #xyz{
+    background-color: red;
+}
+
+#def{
+    background-color: blue;
+} */
+
+
+/* .abc{
+    background-color: yellow;
+} */
+
+
+/* img{
+    height: 100px;
+} */
+
+/* .abc{
+    height: 200px;
+}
+
+#s{
+    height: 500px;
+} */
+
+
+/* .bgred{
+    background-color: red;
+    height: 100px;
+} */
+
+.btn-primary{
+    background-color: blue;
+}
+.btn-secondary{
+    background-color: rgb(70, 70, 73);
+}
