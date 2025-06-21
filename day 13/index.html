@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Overflow Ellipsis</title>
+  <style>
+    .box {
+      height: 30vh;
+      width: 30vw;
+      border: 2px solid black;
+      overflow: hidden; 
+      white-space: nowrap; /* important */
+      text-overflow: ellipsis; /* important */
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti cum aliquid fuga odio ea quo, illo vel modi ex assumenda consequatur quasi blanditiis earum aperiam incidunt fugit id at sit. Sed sit eius dolores!
+  </div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display property</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .box {
+        border: 2px solid black;
+        width: 200px;
+        display: inline-block;
+        padding: 20px;
+        margin: 34px;
+    }
+
+    .box1 {
+        display: none;
+        /* visibility: hidden; */
+    }
+</style>
+
+<body>
+
+    <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/display -->
+    <div class="box box1">i am a box</div>
+    <div class="box">iam another div</div>
+
+    <span>iam a</span>
+    <span>span</span>
+</body>
+
+</html>
