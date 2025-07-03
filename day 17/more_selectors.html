@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>more on css selectors</title>
+</head>
+
+<style>
+    /* .box:first-child{
+        background-color: red;
+    } */
+
+    /* .box::first-line{
+        background-color: yellow;
+    } */
+
+    /* .boxes *{
+            color: blue;
+            border: 2px solid black;
+        } */
+
+    /* p, a, .box, [data-color="primary"], [type="text"]{
+            padding-top: 45px;
+        }  */
+
+          /* .box:nth-child(even){
+            background-color: blue;
+        } */
+
+        /* .box:nth-last-child(3){
+            background-color: red;
+        } */
+
+        /* .boxes::after {
+            content: "Harry is good";
+            color: blue;
+        } */
+
+        /* ::selection {
+            background-color: rgb(255, 0, 0);
+            color: rgb(255, 255, 255);
+        } */
+
+        /* .box:hover{
+            background-color: blue;
+            color: wheat;
+        } */
+        /* .box:active{
+            background-color: rgb(14, 137, 151);
+            color: wheat;
+        } */
+
+        /* .box::first-letter {
+            color: peru;
+            font-size: 45px;
+        }
+         */
+
+          /* input::placeholder {
+            font-size: 34px;
+            color: rgb(1, 1, 225);
+        } */
+
+        /* input{
+            font-size: 50px;
+            height: 200px;
+            width: 300px;
+        } */
+       
+</style>
+<body>
+     <div class="boxes">
+        <div data-color="primary" class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, id, suscipit nemo illo obcaecati velit, error sed ut recusandae doloribus assumenda eveniet dicta nostrum enim deleniti dignissimos vel quasi dolor! Obcaecati dolores necessitatibus veniam quaerat nemo labore quae, amet est suscipit, iure aliquid nam alias deleniti assumenda cum expedita nulla accusamus inventore voluptatibus consequatur quisquam dolore fugiat aut adipisci! Quis aut hic alias ipsa sunt veritatis iure mollitia minima necessitatibus ad enim unde nulla odio est cumque omnis tenetur illo animi iste, praesentium dicta adipisci ipsam temporibus ea. Aspernatur sint sit ducimus quidem magni dolorum voluptatem, corporis ex a accusamus.</div>
+        <div class="box">Hey I am a box</div>
+        <div class="box">Hey I am a box</div>
+        <a href="https://google.com">home</a>
+        <input type="text" placeholder="Type your name here">  
+
+    </div>
+</body>
+</html>
+
