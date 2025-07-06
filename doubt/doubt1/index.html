@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cont {
+    height: 2000px;
+    width: 80%;
+    background-color: brown;
+    position: absolute;
+    margin: 200px;
+
+}
+    #test1 {
+    height: 200px;
+    width: 100%;
+    background-color: aqua;
+    position: relative;
+    z-index: 3;
+}
+
+#test2 {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(37, 23, 228);
+     /* position: sticky; */
+    /* top: 30px; */ 
+
+    /* position: relative; */
+    /* top: 50px; */
+
+    position: absolute;
+    top: 10px;
+    z-index: 2;
+}
+
+
+
+
+
+
+</style>
+<body>
+    <!-- iframe -->
+    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/R0zMz9tIj4M?si=GgsZvtl9CMmSr689" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+
+    <!-- svg -->
+    <!-- <img src="tree-svgrepo-com.svg" alt=""> -->
+
+
+    <!-- zindex -->
+
+    <div class="cont">
+    <div class="box" id="test1"></div>
+    <div class="box" id="test2"></div>
+    </div>
+</body>
+</html>
