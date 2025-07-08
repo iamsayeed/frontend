@@ -14,7 +14,7 @@
         justify-content: center;
         align-items: center;
         /* flex-direction: row; */
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
         /* align-content: end; */
         /* flex-flow: row wrap; */
         /* row-gap: 40px; */
@@ -31,27 +31,35 @@
             background-color: blueviolet;
         }
 
+        .order-1{
+            order: 1;
+        }
+        .order-2{
+            order: 2;
+        }
+        .order-3{
+            order: 3;
+        }
+        .order-4{
+            order: 4;
+        }
+
+        .item1{  
+            /* flex-grow: 2; */
+            /* flex-shrink: 2; */
+            /* align-self:flex-end; */
+        }
 </style>
 <body>
     <main>
         <div class="container">
-            <div class="item item1">1</div>
-            <div class="item">2</div>
-            <div class="item">3</div>
-            <div class="item order-1">4</div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            
+            <div class="item item1">set</div>
+            <div class="item order-3">1</div>
+            <div class="item">test</div>
+            <div class="item">text</div>
+            <div class="item order-1">2</div>
+            <div class="item order-4">3</div>
+            <div class="item order-2">4</div>      
     </main>
 </body>
 </html>
