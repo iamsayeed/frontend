@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css transform</title>
+</head>
+<style>
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/transform */
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .box:hover{
+        transform: translateX(10px) rotate(10deg) translateY(5px);
+    }
+      .box {
+            height: 50px;
+            width: 50px;
+            background-color: beige;
+            border: 2px solid black;
+            
+            /* transform: rotate(0.125turn); */
+            /* transform-origin: -50% -50%; */
+            /* transform: rotateZ(9deg); */
+            /* transform: skewY(34deg); */
+            /* transform: translateY(100%) skewX(40deg) translateX(45%); */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .container {
+            margin: 55px;
+            width: 90vw;
+            height: 80vh;
+            border: 2px solid purple;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+</style>
+<body>
+    <div class="container">
+        <div class="box">test</div>
+    </div>
+</body>
+</html>
