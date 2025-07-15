@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css transition</title>
+</head>
+<style>
+    .container{
+            background-color: antiquewhite;
+            width: 50vw;
+            height: 40vh;
+        }
+
+    .box{
+            background-color: rgb(140, 255, 0);
+            width: 5vw;
+            height: 4vh;
+             /* transition-property:all; */
+            /* transition-delay: 1s;  */
+             /* transition-duration: 3s; */
+            /* transition-timing-function: ease-in; */
+            transition: all 3s ease-in 1s;
+
+            
+        }
+
+        .translate:hover{
+            transform: translateX(10vw) translateY(10vh) scale(2);
+            background-color: blue;
+            color: white;
+            font-size: 26px;
+        }
+</style>
+<body>
+    <div class="container">
+        <div class="box translate">booboo</div>
+    </div>
+</body>
+</html>
